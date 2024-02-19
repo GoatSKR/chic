@@ -1,6 +1,8 @@
+
 export default function Hero() {
     return (
-        <div className="  bg-black h-screen flex flex-col md:justify-center md:items-center pt-[220px] md:pt-[20px]  ">
+        <div className="  bg-black h-screen flex flex-col md:justify-center md:items-center pt-[220px] md:pt-[20px] overflow  ">
+         
             <div className=" md:w-[480px] px-4 ">
                 <p className="text-xl font-INTER text-[#A0A0A0] pt-2">
                     Logo
@@ -15,7 +17,7 @@ export default function Hero() {
                 </p>
             </div>
 
-            <div className="mt-[60px] md:mt-[80px] ml-0 pl-2 md:pl-0">
+            <div className="mt-[60px] md:mt-[80px] ml-0 pl-2 md:pl-0 md:w-[460px]">
                 <div className=" flex flex-row items-start md:items-center p-2 rounded-xl hover:bg-slate-600">
                     <div>
                         <img className="h-8 w-8 rounded-md mt-2" src="https://framerusercontent.com/images/vDmcrpnnUnU901b5mcyumI8WI.png" alt="" />
